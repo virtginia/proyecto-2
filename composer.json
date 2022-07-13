@@ -1,0 +1,24 @@
+{
+    "name": "vpizz/proyecto-2",
+    "autoload": {
+        "psr-4": {
+            "Vpizz\\Proyecto1\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "PM",
+            "email": "pm@pizzaferrimorrone.com"
+        }
+    ],
+	"repositories": [
+	{
+      "type": "github",
+      "url": "https://github.com/virtginia/libreria-2.git"
+    }
+	],
+    "require": {
+        "phpoffice/phpspreadsheet": "^1.24",
+		"vpizz/libreria-2": "dev-master"
+    }
+}
